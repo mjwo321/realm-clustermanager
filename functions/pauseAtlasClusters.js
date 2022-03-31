@@ -1,6 +1,6 @@
 exports = async function(){
 
-  const clusterNames = ["Demo"]; //["Demo","DemoTimeseries"];
+  const clusterNames = context.values.get("AtlasClusterNamesForPauseAndResume");
   const params = { paused: true }
  
   const results = [];

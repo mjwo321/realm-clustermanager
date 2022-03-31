@@ -1,0 +1,7 @@
+{
+    "name": "AtlasClusterNamesForPauseAndResume",
+    "value": [
+        "Demo"
+    ],
+    "from_secret": false
+}
