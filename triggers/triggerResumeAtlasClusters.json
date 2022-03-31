@@ -1,0 +1,16 @@
+{
+    "id": "6245ce0f26e66cbbc602e95b",
+    "name": "triggerResumeAtlasClusters",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "53 15 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "resumeAtlasClusters"
+            }
+        }
+    }
+}
