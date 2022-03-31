@@ -8,5 +8,10 @@
         "name": "getAtlasClusters",
         "private": false,
         "run_as_system": true
+    },
+    {
+        "name": "updateAtlasCluster",
+        "private": false,
+        "run_as_system": true
     }
 ]
