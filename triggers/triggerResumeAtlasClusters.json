@@ -1,9 +1,9 @@
 {
-    "id": "6245ce0f26e66cbbc602e95b",
+    "id": "6245ce2c10559984aab9e511",
     "name": "triggerResumeAtlasClusters",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "53 15 * * *"
+        "schedule": "57 15 * * *"
     },
     "disabled": false,
     "event_processors": {
