@@ -1,16 +1,16 @@
 [
     {
-        "name": "updateAtlasCluster",
-        "private": false,
-        "run_as_system": true
-    },
-    {
         "name": "getAtlasAPITemplate",
         "private": true,
         "run_as_system": true
     },
     {
         "name": "getAtlasClusters",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "updateAtlasCluster",
         "private": false,
         "run_as_system": true
     }

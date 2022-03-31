@@ -4,7 +4,7 @@ exports = async function(clusterName, params) {
   const collectionLog = mdb.db("clustermanager").collection("log");
 
   
-  const atlasApiUpdateClusters = await context.functions.execute('getApiTemplate', '/clusters/'+clusterName, params);
+  const atlasApiUpdateClusters = await context.functions.execute('getAtlasAPITemplate', '/clusters/'+clusterName, params);
   const atlasApiUpdateClustersResponse = await context.http.patch(atlasApiUpdateClusters);
   const atlasCluster = EJSON.parse(atlasApiUpdateClustersResponse.body.text());
   
