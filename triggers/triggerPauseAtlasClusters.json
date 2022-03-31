@@ -1,0 +1,16 @@
+{
+    "id": "6245d060d0e89a78e35f2834",
+    "name": "triggerPauseAtlasClusters",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "15 20 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "pauseAtlasClusters"
+            }
+        }
+    }
+}
