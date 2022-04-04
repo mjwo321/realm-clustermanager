@@ -1,7 +1,6 @@
 {
     "name": "AtlasClusterNamesForPauseAndResume",
     "value": [
-        "Demo",
         "DemoTimeseries"
     ],
     "from_secret": false
