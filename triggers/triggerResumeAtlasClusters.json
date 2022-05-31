@@ -3,7 +3,8 @@
     "name": "triggerResumeAtlasClusters",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "0 6 * * 1-5"
+        "schedule": "0 6 * * 1-5",
+        "skip_catchup_events": false
     },
     "disabled": false,
     "event_processors": {

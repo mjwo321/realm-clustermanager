@@ -3,7 +3,8 @@
     "name": "triggerPauseAtlasClusters",
     "type": "SCHEDULED",
     "config": {
-        "schedule": "15 20 * * *"
+        "schedule": "15 20 * * *",
+        "skip_catchup_events": false
     },
     "disabled": false,
     "event_processors": {
